@@ -26,4 +26,6 @@ export interface JobRecord {
   posted_at: string | null;
   description: string | null;
   discovered_at: string;
+  status?: "new" | "applied" | "ignored";
+  applied_at?: string | null;
 }

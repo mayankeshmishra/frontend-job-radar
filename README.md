@@ -305,6 +305,7 @@ frontend-job-radar/
 ├── config/
 │   ├── companies.json
 │   └── keywords.json
+├── dashboard/              # Next.js private job dashboard (see dashboard/README.md)
 ├── src/
 │   ├── collectors/       # Greenhouse, Lever, Workday, LinkedIn
 │   ├── config/           # Env and config loaders
