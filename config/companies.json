@@ -1,0 +1,18 @@
+{
+  "greenhouse": ["stripe", "airbnb", "datadog", "confluent"],
+  "lever": ["coinbase", "rippling", "atlassian"],
+  "workday": [
+    {
+      "name": "Adobe",
+      "tenant": "adobe",
+      "instance": "wd5",
+      "site": "External"
+    },
+    {
+      "name": "Salesforce",
+      "tenant": "salesforce",
+      "instance": "wd12",
+      "site": "External_Career"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "include": [
+    "frontend engineer",
+    "senior frontend engineer",
+    "lead frontend engineer",
+    "staff frontend engineer",
+    "principal frontend engineer",
+    "frontend architect",
+    "ui engineer",
+    "software engineer frontend"
+  ],
+  "exclude": [
+    "android",
+    "ios",
+    "backend",
+    "sdet",
+    "qa",
+    "test engineer"
+  ]
+}

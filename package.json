@@ -1,0 +1,36 @@
+{
+  "name": "frontend-job-radar",
+  "version": "1.0.0",
+  "description": "Production-grade job monitoring platform for Senior/Lead Frontend Engineer roles",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "verify": "ts-node src/scripts/verify.ts",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": ["jobs", "frontend", "monitoring", "greenhouse", "lever", "workday"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "axios": "^1.18.0",
+    "dotenv": "^17.4.2",
+    "pino": "^10.3.1",
+    "resend": "^6.12.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^25.9.3",
+    "eslint": "^9.39.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.48.0",
+    "ts-node": "^10.9.2"
+  }
+}
