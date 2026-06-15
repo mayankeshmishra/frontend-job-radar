@@ -12,6 +12,8 @@ const REQUIRED_COLUMNS = [
   "posted_at",
   "description",
   "discovered_at",
+  "status",
+  "applied_at",
 ] as const;
 
 export interface SchemaCheckResult {

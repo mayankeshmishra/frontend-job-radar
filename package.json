@@ -5,10 +5,16 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "build:dashboard": "npm run build --prefix dashboard",
+    "build:all": "npm run build && npm run build:dashboard",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "verify": "ts-node src/scripts/verify.ts",
-    "lint": "eslint src --ext .ts"
+    "lint": "eslint src --ext .ts",
+    "lint:dashboard": "npm run lint --prefix dashboard",
+    "lint:all": "npm run lint && npm run lint:dashboard",
+    "typecheck:dashboard": "npm run typecheck --prefix dashboard",
+    "typecheck:all": "npm run build && npm run typecheck:dashboard"
   },
   "keywords": ["jobs", "frontend", "monitoring", "greenhouse", "lever", "workday"],
   "author": "",
