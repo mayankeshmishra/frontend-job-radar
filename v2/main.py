@@ -41,8 +41,12 @@ def run_pipeline():
         else:
             continue
 
+        print(f"[{name}] Fetched {len(raw_jobs)} total jobs from {ats}")
+
         for job in raw_jobs:
             if not is_target_role(job):
+                # Uncomment the line below to see all the jobs that get ignored
+                print(f"  [Ignored] {job.get('title')} | {job.get('location')}")
                 continue
 
             if not is_job_seen(job["job_id"], name):
